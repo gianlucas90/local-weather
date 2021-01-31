@@ -36,6 +36,7 @@ const Widget = ({ temp, tempUnit, weather, location, onUnitTempClick }) => {
           type="radio"
           name="unitTemp"
           value="celsius"
+          defaultChecked
         />
         <label htmlFor="celsius">°C</label>
         <input
