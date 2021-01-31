@@ -1,0 +1,41 @@
+.widget {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 450px;
+  min-height: 220px;
+}
+
+.widget h1 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.weather {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.widget i {
+  font-size: 8rem;
+}
+
+.widget h2 {
+  font-size: 3rem;
+  margin: 0 !important;
+}
+
+.widget label:first-of-type {
+  margin-right: 1rem;
+}
+
+.widget input {
+  margin-right: 0.5rem;
+}
+
+.location {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
